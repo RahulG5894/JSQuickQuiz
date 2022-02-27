@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" defer>
+    </link>
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="main-head">JS MCQ QUIZ</h1>
+    </header>
+    <section>
+        <div id="button-div" class="buttons-style">
+            <button onclick="displayQuizQuestions()">START</button>
+            <button onclick="diplayQuitMessages()">QUIT</button>
+        </div>
+        <div id="questions" class="hidden">
+            <div class="question-wrapper">
+                <h3>Q1. Where is the correct place to insert a JavaScript?</h3>
+                <label><input type="radio" name="question1" value="1">Both the head section and the body section are correct</label>
+                <label><input type="radio" name="question1" value="2">The head section</label>
+                <label><input type="radio" name="question1" value="3">The body section</label>
+                <label><input type="radio" name="question1" value="4">None of the above</label>
+            </div>
+
+            <div class="question-wrapper">
+                <h3>Q2. Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using
+                    JavaScript?</h3>
+                <label><input type="radio" name="question2" value="1">alertbox(“GeeksforGeeks”);</label>
+                <label><input type="radio" name="question2" value="2">msg(“GeeksforGeeks”);</label>
+                <label><input type="radio" name="question2" value="3">msgbox(“GeeksforGeeks”);</label>
+                <label><input type="radio" name="question2" value="4">alert(“GeeksforGeeks”);</label>
+            </div>
+
+            <div class="question-wrapper">
+                <h3>Q3. The external JavaScript file must contain script tag. True or False?</h3>
+                <label><input type="radio" name="question3" value="1">True</label>
+                <label><input type="radio" name="question3" value="2">False</label>
+            </div>
+
+            <div class="question-wrapper">
+                <h3>Q4. Which of the following is not a reserved word in JavaScript?</h3>
+                <label><input type="radio" name="question4" value="1">interface</label>
+                <label><input type="radio" name="question4" value="2">throws</label>
+                <label><input type="radio" name="question4" value="3">program</label>
+                <label><input type="radio" name="question4" value="4">short</label>
+            </div>
+
+            <div class="question-wrapper">
+                <h3>Q5. Which of the following is an advantage of using JavaScript?</h3>
+                <label><input type="radio" name="question5" value="1">Increased interactivity. </label>
+                <label><input type="radio" name="question5" value="2">Less server interaction. </label>
+                <label><input type="radio" name="question5" value="3"> Immediate feedback from the users.</label> 
+                <label><input type="radio" name="question5" value="4">All of the above.</label>
+            </div>
+            <button id="submit-button" type="submit" value="Submit" onclick="displayResult()">Submit</button>
+        </div>
+        <div id="displayScore" class="hidden" style="text-align: center;">
+            <p id="score-para">Your score is </p>
+            <h3>Thankyou !!</h3>
+        </div>
+        <div id="quitMessage" class="hidden" style="text-align: center;">
+            <p>Please Come again.</p>
+            <h3>Thankyou !!</h3>
+        </div>
+    </section>
+    <footer>
+        <p>Take this quiz and test your JS understanding.</p>
+    </footer>
+</body>
+
+</html>

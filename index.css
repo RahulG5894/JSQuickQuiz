@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+header{
+    text-align: center;
+    color: blue;
+    max-height: 10%;
+}
+section{
+    position: relative;
+    width: 70%;
+    min-height: 50%;
+    margin: auto;
+}
+.question-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.buttons-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20%;
+}
+footer{
+    max-height: 10%;
+    text-align: center;
+    color: rgb(74, 74, 136);
+}
+.hidden{
+    display: none;
+}
+#submit-button{
+    margin-top: 1rem;
+}
+#displayScore{
+    background-color: skyblue;
+    font: rgb(10, 252, 10);
+}
